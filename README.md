@@ -1,6 +1,6 @@
 # BINARY TREE
 
-[image of binary tree](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRWayBb1E3A1DQjFAaSMqJ3DN8BbAHzhUitGZ49aTtn_Vd9V6yQ)
+![image of binary tree](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRWayBb1E3A1DQjFAaSMqJ3DN8BbAHzhUitGZ49aTtn_Vd9V6yQ)
 
 A binary tree is a tree data structure in which each node has a maximum of two children, which is called a left and right fact. A recursive definition that uses set theory news is a non-empty binary tree is a tuple, where left and right are binary trees or the empty set and the result S is a singleton set. A binary tree can also be called a bifurcating tree, a term that appears in some very old programming books. It is also possible to interpret a binary tree as a non-directed, rather than directed, graphic, in which case a binary tree is more an ordered and rooted tree. Rooted binary tree is used instead of binary tree to emphasize the fact that the tree is rooted, but as defined above, a binary tree is always rooted.
 Binary trees are used in two different ways:
