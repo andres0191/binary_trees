@@ -19,8 +19,6 @@ struct binary_tree_s
     struct binary_tree_s *right;
 };
 
-/*Function to print binary tree ↓*/
-
 typedef struct binary_tree_s binary_tree_t;
 /*Binary search tree ↓*/
 typedef struct binary_tree_s bst_t;
