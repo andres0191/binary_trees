@@ -20,7 +20,7 @@ struct binary_tree_s
 };
 
 /*Function to print binary tree ↓*/
-void binary_tree_print(const binary_tree_t *tree);
+
 typedef struct binary_tree_s binary_tree_t;
 /*Binary search tree ↓*/
 typedef struct binary_tree_s bst_t;
