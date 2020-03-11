@@ -25,17 +25,17 @@ new_node->n = value;
 new_node->left = NULL;
 new_node->right = NULL;
 
-if (parent->right == NULL)
-{
-parent->right = new_node;
-new_node->parent = parent;
-}
-else
+if (parent->right)
 {
 parent->right->parent = new_node;
 new_node->parent = parent;
 new_node->right = parent->right;
 parent->right = new_node;
+}
+else
+{
+parent->right = new_node;
+new_node->parent = parent;
 }
 
 return (new_node);
