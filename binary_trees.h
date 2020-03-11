@@ -67,4 +67,6 @@ binary_tree_t *binary_tree_sibling(binary_tree_t *node);
 /*prototype task 18 Uncle ↓*/
 binary_tree_t *binary_tree_uncle(binary_tree_t *node);
 
+void binary_tree_print(const binary_tree_t *tree);
+
 #endif
