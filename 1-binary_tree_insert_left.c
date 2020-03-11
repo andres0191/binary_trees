@@ -27,15 +27,15 @@ new_node->right = NULL;
 
 if (parent->left == NULL)
 {
-new_node->parent = parent;
 parent->left = new_node;
+new_node->parent = parent;
 }
 else
 {
 parent->left->parent = new_node;
 new_node->parent = parent;
-parent->left = new_node;
 new_node->left = parent->left;
+parent->left = new_node;
 }
 
 return (new_node);
