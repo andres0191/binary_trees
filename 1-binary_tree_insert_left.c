@@ -34,8 +34,8 @@ else
 {
 parent->left->parent = new_node;
 new_node->parent = parent;
-new_node->left = parent->left;
 parent->left = new_node;
+new_node->left = parent->left;
 }
 
 return (new_node);
